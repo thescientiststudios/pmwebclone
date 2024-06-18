@@ -1,0 +1,62 @@
+{
+  "name": "postmodern-website",
+  "private": true,
+  "description": "Postmodern website source code",
+  "version": "0.1.0",
+  "author": "Cheline Magsano <mariacheline@gmail.com>",
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "gatsby": "^2.13.57",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-csp": "^1.1.4",
+    "gatsby-plugin-google-tagmanager": "^5.13.1",
+    "gatsby-plugin-hotjar": "^1.1.1",
+    "gatsby-plugin-i18n": "^1.0.1",
+    "gatsby-plugin-iubenda-cookie-footer": "^1.5.1",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-offline": "^1.0.18",
+    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-styled-components": "^6.13.1",
+    "gatsby-plugin-transition-link": "^1.20.5",
+    "gatsby-source-datocms": "^2.5.18",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "gsap": "^3.12.5",
+    "ncu": "^0.2.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-is": "^18.3.1",
+    "react-pose": "^4.0.10",
+    "react-typeform-embed": "^1.0.8",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
